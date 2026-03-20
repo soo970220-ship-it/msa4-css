@@ -1,0 +1,9 @@
+.abc {
+  font-size: 1.5em;
+  line-height: 2rem;
+  font-weight: 600;
+  color: #ad3000;
+}
+ul {
+  list-style-type: none;
+}

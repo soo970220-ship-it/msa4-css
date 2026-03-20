@@ -1,0 +1,22 @@
+/* cascading: 스타일 우선순위와 스타일 상속을 통해 스타일의 충돌을 방지, 보통 마지막에 작성된것이 우선(우선도가같을때) */
+
+#id-style {
+  color: violet;
+}
+
+.class-style {
+  color: green;
+}
+
+h1 {
+  color: red;
+}
+
+* {
+  /* color: blue !important; */
+  color: blue;
+}
+
+h1 {
+  color: orange;
+}
