@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* 폰트설정 관련 및 기타 필요에 따른 스타일들 작성 */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+}
+.container {
+  width: 600px;
+  margin: auto;
+}
+.header {
+  padding: 20px 20px 10px;
+  margin-bottom: 10px;
+  background-color: #000000;
+}
+
+.header-title {
+  color: azure;
+  margin-bottom: 30px;
+}
+
+.header-info {
+  color: #eb7426;
+}
+
+.main-title {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+.main-content {
+  padding-bottom: 20px;
+  border: 1px solid #d5d5d5;
+  border-top-width: 0px;
+  text-align: center;
+}
+
+.item {
+  padding: 20px;
+  /* margin-bottom: 30px; */
+  color: #cd0505;
+  font-weight: 900;
+  font-size: 24px;
+}
+/* 오류현상
+ 테두리가 겹쳐지는 경우 좀 더 굵게 보이는 현상
+
+ 오류 뷴속
+ css의 테두리가 겹치는 경우 좀 더 굵게 보이는 특성이 있다
+
+ 오류 해결 방법
+ 테두리가 겹치는 것을 제거해 주면 될 것이다.abc>>>>방법을 찾아서 작성
+
+ 오류해결
+ ?번 방법을 적용해서 해결했다.*/
+
+.info {
+  padding: 5px;
+  font-weight: 700;
+}
+
+.highlight-bule {
+  color: #0000c8;
+}
+
+.text-small {
+  font-size: 10px;
+  font-weight: 400;
+}
