@@ -1,0 +1,19 @@
+.img-float1 {
+  float: left;
+}
+.img-float2 {
+  /* float: right; */
+  clear: none;
+}
+ul {
+  list-style-type: none;
+  width: 480px;
+}
+li {
+  float: left;
+  background-color: #d5d5d5;
+  width: 120px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}

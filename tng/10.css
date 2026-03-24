@@ -1,0 +1,43 @@
+div {
+  padding: 10;
+  width: 150px;
+  height: 150px;
+  margin: 1px;
+  border: 1px solid #000000;
+}
+
+/* 렐러티브 = 기준점이 다름(상위요소의 마지막 기준점으로 설정)
+  앱솔루트 = 기준점이 같음 */
+
+.container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.position1 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  right: 200px;
+}
+
+.position2 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.position3 {
+  position: absolute;
+  top: 200px;
+  right: 240px;
+}
+
+/* * = 전체선택, 두개를 0으로 설정해 놓으면 사이트 창의 가장자리 여백이 없어짐*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
