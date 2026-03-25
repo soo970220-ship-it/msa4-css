@@ -34,9 +34,10 @@
   height: 200px;
 
   /* linear-gradition():선형 그라데이션 효과를 부여하는 함수 */
-  /* background: linear-gradient(#fff, #000); */
+  /* background: linear-gradient(#fff, #000); */.
   /* background: linear-gradient(300deg,#fff, #000); */
   background: linear-gradient(#fff, #de6464 70%, #000);
   /* radial-gradation():원형 그라데이션 효과 부여 */
   background: radial-gradient(circle at 80% 0%, #000, #ceee1a, #f00707b9);
 }
+/* 한그라데이션에 두개의 설정이 들어가면 덮어쓰기되어 마지막 설정이 들어감 */
