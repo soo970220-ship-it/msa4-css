@@ -1,0 +1,59 @@
+/* 가상요소  : 선택한 요소의 지정된 부분에 스타일을 적용*/
+
+/* after : 특정 요소의 컨텐츠 뒤에 다른 요소룰삽입 */
+
+/* ::before : 특정 요소의 컨텐츠 앞에 다른 요소를 삽입*/
+.required-star::after {
+  content:"★" ;
+  color: red;
+}
+
+.input-hover:hover::after {
+  content: "☆";
+  position: fixed;
+  top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
