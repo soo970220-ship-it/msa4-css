@@ -1,0 +1,26 @@
+@keyframes upDown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100px);
+  }
+}
+
+.ball {
+  animation: upDown 1s ease-in-out infinite alternate;
+  background-color: rgb(236, 190, 250) ;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+}
+.container {
+  display: flex;
+}
+.ball:nth-child(1) { background-color: aqua; animation-delay: 0.2s;}
+.ball:nth-child(2) { background-color:rgb(245, 156, 186); animation-delay: 0.4s;}
+.ball:nth-child(3) { background-color: rgb(142, 40, 238); animation-delay: 0.1s;}
+.ball:nth-child(4) { animation-delay: 0.3s;}
+.ball:nth-child(5) { background-color: rgb(233, 236, 4); animation-delay: 0.9s;}
