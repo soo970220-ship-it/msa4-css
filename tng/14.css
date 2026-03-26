@@ -1,0 +1,32 @@
+
+ul {
+  list-style-type: none;
+}
+li::before {
+  content: "* ";
+  color:red
+}
+li {
+  padding: 5px;
+  /* 하이트는 텍스트에 적용, 폼은 패딩을 적용*/
+}
+legend{
+
+  color: rgb(209, 17, 167);
+  font-size: 30px;
+  font-weight: 700;
+  }
+
+body{
+  width: 500px;
+  }
+
+
+fieldset{
+ background-image: url(../edu/cat2.jpg);
+ background-size: 490px;
+ border-width: 15px;
+ border-color: black; }
+  input, textarea {
+  background: transparent;}
+ 
