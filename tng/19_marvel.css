@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  width: 100%;
+  color: #ffffff;
+  text-decoration: 200vh;
+  padding: 3px 15px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+/* -------------- ------*/
+/* 사이드바 관련 */
+/* ------------------- */
+
+.side-bar {
+  background-color: #ff3d49;
+}
+
+.side-inner {
+  /* 
+  grid item인 `.side-bar`에 position을 줘도 적용이 안되므로
+ 사이드바의 콘텐츠(자식요소)들을 한번 더 랩핑 해줬다 */
+  position: sticky;
+  top: 0;
+  color: #f5f5f5;
+}
+
+/* 다른메뉴말고 h1만 따로 여백이 있는것임을 유추할수있음  */
+.title {
+  /* padding: 50px 25px;
+   이것만 해도 되지만 플렉스로하면 더 정확히 중앙정렬됨 */
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-box{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+
+
+.nav-title {
+  background-color: #ff5662;
+  padding: 8px 15px;
+  font-weight: 900;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  /* 여기 패딩에 간격을 줄 경우 리스트 클릭시 그 간격을 제외한 곳에만 적용됨
+  그래서 리스트목록 따로 만든거임 */
+
+  /* plex넣은 이유 : 아이템들 간의 간격을 편하게 조절하기 위해 */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.nav-list > li:hover {
+  background-color: black;
+  transition: all 1.5s;
+}
+
+
+/*----------------------*/
+/* 메인 관련 */
+/* ------------------- */
+.main {
+  height: 200vh; /* 사이드바 완료시 꼭 지워 */
+  background-color: #f5f5f5;
+}
+
+
+
