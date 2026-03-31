@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+}
+
+.item {
+  border-color: 1px soild #000;
+  background-color: rgb(99, 168, 228);
+}
+/* 로우 4개로 할수도있지만 되도록 가장 작은 아이템이 맞춰 셀을 구성하는게 좋다 */
+ .container { 
+  display: grid;
+  background-color: rgb(71, 57, 85);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2fr 2fr 1fr 1fr;
+  gap: 10px;
+  width: 500px;
+  height: 500px;
+  /* 패딩으로인해서 아이템들 떨어트려놓기 */
+  padding: 10px; }
+
+/* 클래스이름을 만들어서 앞에 넣어놓아도 됨 */
+.my-grid-col-span-2{
+  grid-column: span 2;
+}
+
+.my-grid-row-span-2{
+  grid-row: span 2;
+} */
+
+
+
