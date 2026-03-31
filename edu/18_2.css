@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 10px;
+  background-color: rgb(71, 57, 85);
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.item {
+  border: 1px soild #000;
+  background-color: rgb(99, 168, 228);
+}
+
+/* @media (max-width: 499px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+} */
+ 
